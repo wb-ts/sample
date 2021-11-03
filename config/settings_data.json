@@ -1,0 +1,1013 @@
+{
+  "current": {
+    "color_text": "#131313",
+    "color_body_text": "#131313",
+    "color_sale_text": "#131313",
+    "color_button": "#131313",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#131313",
+    "color_text_field_text": "#131313",
+    "color_text_field_border": "#cccccc",
+    "color_text_field": "#ffffff",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#a1a1a1",
+    "image_overlay_opacity": 20,
+    "color_borders": "#ebebeb",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "helvetica_n7",
+    "type_header_base_size": 26,
+    "type_base_font": "helvetica_n4",
+    "type_base_size": 15,
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/1favicon-171004.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#1878b9",
+    "checkout_button_color": "#1878b9",
+    "checkout_error_color": "#e22120",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 70,
+          "main_linklist": "main-menu",
+          "main_linklist_mob": "",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "disabled": true,
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "disabled": true,
+        "settings": {
+          "title": "Featured collection",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "disabled": true,
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Studio",
+              "menu": "studio"
+            }
+          },
+          "589478e9-1b3a-440d-9b41-937187e96f43": {
+            "type": "link_list",
+            "settings": {
+              "title": "Info",
+              "menu": "info"
+            }
+          },
+          "d70274a5-7af5-4ad7-b8ed-b0d5603d6b15": {
+            "type": "link_list",
+            "settings": {
+              "title": "Orders",
+              "menu": "orders"
+            }
+          },
+          "8273c8fc-802a-483b-870c-25768f2ec747": {
+            "type": "link_list",
+            "settings": {
+              "title": "Social",
+              "menu": "social"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "589478e9-1b3a-440d-9b41-937187e96f43",
+          "d70274a5-7af5-4ad7-b8ed-b0d5603d6b15",
+          "8273c8fc-802a-483b-870c-25768f2ec747"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#f2efeb",
+          "color_footer_text": "#131313",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "161543543534f94344": {
+        "type": "ik-homepage-gallery",
+        "settings": {
+          "item1_link": "shopify:\/\/collections\/all",
+          "item1_image": "shopify:\/\/shop_images\/1.jpg",
+          "item1_button": "Shop Now",
+          "item2_link": "shopify:\/\/products\/chain-bracelet",
+          "item2_image": "shopify:\/\/shop_images\/2.jpg",
+          "item2_button": "Crest Round Table",
+          "item3_link": "shopify:\/\/products\/leather-anchor",
+          "item3_image": "shopify:\/\/shop_images\/3.jpg",
+          "item3_button": "Ohm Dining Table"
+        }
+      },
+      "16154398894648bc1f": {
+        "type": "ik-home-about",
+        "settings": {
+          "title": "Spaces shape our choices, our actions, and how we feel.",
+          "link": "shopify:\/\/pages\/about"
+        }
+      },
+      "16154405969e278cd8": {
+        "type": "ik-homepage-gallery",
+        "settings": {
+          "item1_link": "shopify:\/\/products\/bangle-bracelet-with-feathers",
+          "item1_image": "shopify:\/\/shop_images\/4.jpg",
+          "item1_button": "Arc Dining Table",
+          "item2_link": "shopify:\/\/products\/looped-earrings",
+          "item2_image": "shopify:\/\/shop_images\/5.jpg",
+          "item2_button": "Ohm Coffee Table",
+          "item3_link": "shopify:\/\/products\/silver-threader-necklace",
+          "item3_image": "shopify:\/\/shop_images\/6.jpg",
+          "item3_button": "Leather Tote"
+        }
+      },
+      "1615440728caf326aa": {
+        "type": "ik-home-about",
+        "settings": {
+          "title": "We work with traditional Chinese joinery masters.",
+          "link": "shopify:\/\/pages\/woodwork"
+        }
+      },
+      "1615440757b67640d2": {
+        "type": "ik-homepage-gallery",
+        "settings": {
+          "item1_link": "shopify:\/\/collections\/seating",
+          "item1_image": "shopify:\/\/shop_images\/7.jpg",
+          "item1_button": "Wing Stand",
+          "item2_link": "shopify:\/\/collections\/case-pieces-storage",
+          "item2_image": "shopify:\/\/shop_images\/8.jpg",
+          "item2_button": "Sitka Side Table",
+          "item3_link": "shopify:\/\/collections\/seating",
+          "item3_image": "shopify:\/\/shop_images\/9.jpg",
+          "item3_button": "Plume Chair"
+        }
+      },
+      "1615440940d13f3cde": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/10.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "16154435225c0fa0cb": {
+        "type": "ik-insta-feed",
+        "blocks": {
+          "5dd40669-46f0-4e7c-aa16-e7d687d124fc": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Blockchain_avatar_4.jpg",
+              "link": "#"
+            }
+          },
+          "f4ed76b8-53c1-4bf6-b550-79ad94c36e4f": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Blockchain_avatar_2.jpg",
+              "link": "#"
+            }
+          },
+          "216186cf-c0ab-4d63-b8ad-2c87f5191690": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Blockchain_avatar_1.jpg",
+              "link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "5dd40669-46f0-4e7c-aa16-e7d687d124fc",
+          "f4ed76b8-53c1-4bf6-b550-79ad94c36e4f",
+          "216186cf-c0ab-4d63-b8ad-2c87f5191690"
+        ],
+        "settings": {
+          "title": "",
+          "text": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 8,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": false
+        }
+      },
+      "ik-image-with-text": {
+        "type": "ik-image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/wing-stand-sun-at-six.jpg",
+          "layout": "left",
+          "title": "",
+          "text": "<p>Yes, a burst of afternoon sunlight feels great when you&#x27;re lounging on a Saturday afternoon.<br\/><br\/>But more than that, how we arrange our spaces can help us - to engage our friends, or sink back and relax. To focus and motivate us, or help us disengage and unwind. Spaces can help influence our choices, how we live, and how we feel.<\/p><p>Sun at Six is a furniture design studio interested in how spaces affect our everyday choices and how we interact with others. We want to design spaces to nourish relationships that matter.<\/p>",
+          "button_label": ""
+        }
+      },
+      "ik-text-wrap": {
+        "type": "ik-text-wrap",
+        "settings": {
+          "title": "Nourishing our Relationships",
+          "text": "<p>Our furniture is designed with the idea that spaces influence and define how we relate to others.<\/p><p>Sitting across from a friend at a narrow table, faces inches apart, can encourage an intimate, charged dynamic, while reclining seats encourage us to sink back and break off from the conversation to relax.<\/p><p>Furniture, and how it&#x27;s designed, plays a role in shaping these relationships and interpersonal dynamics. More than pragmatic objects, furniture and their arrangement can bring people together and nourish relationships that matter to us.<br\/><br\/>We aim to create spaces that are simple, gentle, restorative, nourishing, open, and natural.<\/p>",
+          "text1": "<p>Sun at Six <br\/><a href=\"mailto:hello@sunatsix.com\">hello@sunatsix.com<\/a><\/p>"
+        }
+      },
+      "ik-text-image-wrap": {
+        "type": "ik-text-image-wrap",
+        "settings": {
+          "title": "Our Furniture",
+          "text": "<p><\/p><p>Great furniture begins with quality materials: raw, sustainably sourced white oak, our house-made tenna oil, developed with years of testing, and full-grain, vegetable-tanned leathers that patina with age. We work to bring out the natural character already present in our materials.<\/p><p>People matter to us. We source leather from with a family-owned tannery in Italy, and work with <a href=\"https:\/\/www.sunatsix.com\/woodwork\">traditional Chinese joinery masters<\/a>, who hand build each piece of furniture using fading, ancient joinery techniques.<br\/><br\/>This allows furniture built without nails or screws, which we finish with our own tenna oil, a natural oil we press and make from tree oils and nuts ourselves. <\/p><p>We work hard to find quality, sustainably sourced hardwoods, which are air-dried, hand-sealed, and carefully kiln-dried according to our own recipes.<\/p>",
+          "image1": "shopify:\/\/shop_images\/yucca-stand-round-sun-at-six.jpg",
+          "image2": "shopify:\/\/shop_images\/juniper-stool-sun-at-six.jpg"
+        }
+      },
+      "ik-image-woodwork": {
+        "type": "ik-image-woodwork",
+        "settings": {
+          "is_width": false,
+          "image": "shopify:\/\/shop_images\/final3-crop.jpg"
+        }
+      },
+      "ik-text-image-wrap1": {
+        "type": "ik-text-image-wrap1",
+        "settings": {
+          "title": "",
+          "text": "<p>Sun at Six works with families, artisans, and traditional joinery masters from Guangzhou, China, some of whom we&#x27;ve worked with for 20 years. We specialize in ancient Chinese woodworking technique, continuing a long history of craftsmanship with our work now featured in the Forbidden City. <\/p><p>We make our furniture using classical Chinese joinery, a fading traditional artform passed down from generation to generation, which uses intricate, interwoven joints to create furniture without the use of any nails or screws.<\/p><p>By using this intricate joinery system, the furniture can acclimatize in real time to China&#x27;s extreme changes in temperature and humidity, which cause most furniture to crack and warp.<\/p><p>The joinery in the furniture allows the wood to &quot;breathe&quot; during large swings in temperature or humidity, letting the furniture expand and contract to prevent cracks and warping.<\/p>",
+          "image1": "shopify:\/\/shop_images\/sun-at-six-joinery_1.jpg",
+          "image2": "shopify:\/\/shop_images\/sun-at-six-joinery_2.jpg"
+        }
+      },
+      "ik-text-wrap1": {
+        "type": "ik-text-wrap1",
+        "settings": {
+          "title": "",
+          "text": "<p>Today, the use of traditional joinery techniques has begun to fade. The complex joints are more expensive and difficult to cut, and fewer craftsmen remain who possess the specialized knowledge required.<\/p><p>Though production of classical pieces has dwindled, we aim to create new opportunities by applying traditional technique to new design.<\/p><p>We’ve taken great pains to seek out traditional joinery masters, working with them to develop new traditional techniques for modern furniture, and in doing so, we hope to continue their legacy of craftsmanship.<\/p>"
+        }
+      },
+      "ik-image-woodwork1": {
+        "type": "ik-image-woodwork1",
+        "settings": {
+          "is_width": true,
+          "image": "shopify:\/\/shop_images\/sun-at-six-joinery-gif.gif"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "ik-image-finishes": {
+        "type": "ik-image-finishes",
+        "settings": {
+          "is_width": false,
+          "image": "shopify:\/\/shop_images\/wood.jpg"
+        }
+      },
+      "ik-finishes-text": {
+        "type": "ik-finishes-text",
+        "settings": {
+          "title": "Sun at Six Finishes",
+          "text": "<p>We finish our wood with our own tenna oil, a natural, nut oil based finish we’ve developed over years of working with wood. Our finish is meticulously hand applied and designed to withstand daily wear while highlighting the natural character of the wood. <\/p><p>Our tenna oil finish is resistant to spills and stains. We’ve tested spills from red wine, to hot sauce, vinegar, olive oil, and ketchup, which can all be wiped away with a damp cloth without staining. Our tenna oil finish is optimized for the wear-and-tear of daily use and will sustain for years with minimal maintenance. <br\/><br\/>We still recommend care when treating our furniture - our pieces are made from all solid hardwood, not veneer, and our pieces won’t be as durable as, say, plastic, as solid hardwood is a natural material that comes from a living creature.<\/p>"
+        }
+      },
+      "ik-finishes-text1": {
+        "type": "ik-finishes-text1",
+        "settings": {
+          "title": "",
+          "text": "<p>Sun at Six <br\/><a href=\"mailto:hello@sunatsix.com\"><span style=\"text-decoration:underline\">hello@sunatsix.com<\/span><\/a><\/p>"
+        }
+      },
+      "ik-finishes-block": {
+        "type": "ik-finishes-block",
+        "blocks": {
+          "49734537-0349-4d28-bc68-b66fca94871a": {
+            "type": "item",
+            "settings": {
+              "item_title": "Sienna",
+              "image": "shopify:\/\/shop_images\/sienna.jpg"
+            }
+          },
+          "46746fe8-34ba-43ae-988b-12f2659da797": {
+            "type": "item",
+            "settings": {
+              "item_title": "Nude",
+              "image": "shopify:\/\/shop_images\/nude.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "49734537-0349-4d28-bc68-b66fca94871a",
+          "46746fe8-34ba-43ae-988b-12f2659da797"
+        ],
+        "settings": {
+          "title": "Standard Finishes",
+          "text": "<p>We stock two standard finishes for our furniture: sienna and nude, and have finish samples available for both.<\/p>"
+        }
+      },
+      "ik-finishes-block1": {
+        "type": "ik-finishes-block1",
+        "blocks": {
+          "8fea4cfb-d587-4aaf-9975-575061f67de7": {
+            "type": "item",
+            "settings": {
+              "item_title": "Shiitake",
+              "image": "shopify:\/\/shop_images\/shiitake.jpg"
+            }
+          },
+          "5ad9445b-44a2-4850-adc5-96314ca59429": {
+            "type": "item",
+            "settings": {
+              "item_title": "Pumpernickel",
+              "image": "shopify:\/\/shop_images\/pumpernickel.jpg"
+            }
+          },
+          "f4d93cca-c6ea-4725-aa50-8bd9e73ebeed": {
+            "type": "item",
+            "settings": {
+              "item_title": "Fog",
+              "image": "shopify:\/\/shop_images\/fog.jpg"
+            }
+          },
+          "22ef50b6-e8b7-4237-ade1-afca5b8f0dc1": {
+            "type": "item",
+            "settings": {
+              "item_title": "Fawn",
+              "image": "shopify:\/\/shop_images\/1_1_f62df06c-2e7f-43da-b1b6-adbc2fcf8b7a.jpg"
+            }
+          },
+          "8b849455-f40d-4762-8c0e-86af9340c88e": {
+            "type": "item",
+            "settings": {
+              "item_title": "Black",
+              "image": "shopify:\/\/shop_images\/ebony.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "8fea4cfb-d587-4aaf-9975-575061f67de7",
+          "5ad9445b-44a2-4850-adc5-96314ca59429",
+          "f4d93cca-c6ea-4725-aa50-8bd9e73ebeed",
+          "22ef50b6-e8b7-4237-ade1-afca5b8f0dc1",
+          "8b849455-f40d-4762-8c0e-86af9340c88e"
+        ],
+        "settings": {
+          "title": "Custom Finishes",
+          "text": "<p>Though we don’t currently have the time to color match, we do have the following custom finishes we can do, made to order for you, if they strike your fancy. If you’re interested, send us an email with which piece in which finish you’d like - these are 10% more, and lead time is 12-14 weeks for us to make it for you!<\/p>"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": false,
+          "media_size": "medium",
+          "enable_image_zoom": false,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "1617068168ef8dc425": {
+        "type": "video-module",
+        "disabled": true,
+        "settings": {
+          "video_url": "https:\/\/youtu.be\/O6lj2LZxQw8",
+          "autoplay": true
+        }
+      },
+      "161707187399c173f1": {
+        "type": "video",
+        "disabled": true,
+        "settings": {
+          "image_position": "center center",
+          "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "show_overlay": true,
+          "style": "image_with_play",
+          "height": "medium",
+          "video_title": "",
+          "text_size": "medium"
+        }
+      },
+      "16171672935334ecd2": {
+        "type": "video-module",
+        "disabled": true,
+        "settings": {
+          "video_url": "https:\/\/youtu.be\/O6lj2LZxQw8",
+          "autoplay": true
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo_max_width": 100,
+          "header": "Coming Soon"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "newsletter_enable": true,
+          "newsletter_form_heading": "Be the first to know when we launch.",
+          "newsletter_form_subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Notify me"
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
+          "show_share_buttons": true,
+          "social_message": "Spread the word"
+        }
+      }
+    },
+    "content_for_index": [
+      "161543543534f94344",
+      "16154398894648bc1f",
+      "16154405969e278cd8",
+      "1615440728caf326aa",
+      "1615440757b67640d2",
+      "1615440940d13f3cde",
+      "16154435225c0fa0cb",
+      "1617068168ef8dc425",
+      "161707187399c173f1",
+      "16171672935334ecd2"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

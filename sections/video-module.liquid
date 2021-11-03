@@ -1,0 +1,102 @@
+https://youtu.be/O6lj2LZxQw8
+{% assign video_url = section.settings.video_url | replace: 'vimeo.com', 'player.vimeo.com/video' | replace: 'watch?v=', 'embed/' %}
+<div class='embed-container'>
+  <iframe sdf src='{{ video_url | append : '?title=0&byline=0&portrait=0&sidedock=0' }}' frameborder='0' allow="autoplay" allowautoplay allowfullscreen></iframe>
+</div>
+
+{{ 'video-module.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.desktop_background_image != blank %}
+<div class="video-module-background">
+{% else %}
+<div class="video-module-defaultbg">
+{% endif %}
+{% if section.settings.desktop_overlay_image != blank %}
+<div class="video-module-overlay">
+{% else %}
+<div class="video-module-defaultoverlay">
+{% endif %}
+{% if section.settings.video_url != blank %}
+
+<div class="video-module-player" data-section-type="video">
+<div class="video-thumbnail">
+<div class="embed-video"
+data-source="{{ section.settings.video_url.type }}"
+data-video-url="{{section.settings.video_url}}">
+</div>
+{% if section.settings.video_thumbnail != blank %}
+
+{% if section.settings.video_thumbnail %}
+<img id="video-thumb-play" src="{{ section.settings.video_thumbnail | img_url: 'master' }}" alt="video-thumbnail" />
+{% endif %}
+<div class="video-play-icon">
+  start
+</div>
+{% endif %}
+</div>
+
+</div>
+
+{% endif %}
+</div>
+</div>
+
+{% schema %}
+{
+"name": "Video Module",
+"settings": [
+{
+"id": "video_url",
+"type": "video_url",
+"label": "Video URL for Desktop",
+"accept": ["youtube", "vimeo"],
+"info": "Supports Youtube and Vimeo",
+"default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+},
+{
+"id": "autoplay",
+"type": "checkbox",
+"label": "Autoplay",
+"default": false
+},
+
+{
+"type": "image_picker",
+"id": "desktop_background_image",
+"label": "Desktop Background Image"
+},
+{
+"type": "image_picker",
+"id": "mobile_background_image",
+"label": "Mobile Background Image"
+},
+{
+"type": "image_picker",
+"id": "desktop_overlay_image",
+"label": "Desktop Overlay Image"
+},
+{
+"type": "image_picker",
+"id": "mobile_overlay_image",
+"label": "Mobile Overlay Image"
+},
+{
+"type": "image_picker",
+"id": "video_thumbnail",
+"label": "Video Thumbanil"
+}
+],
+"presets": [
+{
+"name": "Ik Video Module",
+"category": "Video",
+"settings": {
+"video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+}
+}
+]
+}
+{% endschema %}
+
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+{{ 'embed-video.js' | asset_url | script_tag }}

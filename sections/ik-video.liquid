@@ -1,0 +1,121 @@
+<!-- start custom-product-video.liquid (SECTION) -->
+{%- if section.settings.enabled_videos -%}
+<!-- <img style="margin: 0 auto;" class="lazy video_top_img" src="{{ 'home_badge.png' | asset_img_url: '1000x' }}" alt="" /> -->
+  {% if template == "index" %}<h2 class="section-title">{{ section.settings.section_title }}</h2>{% endif %}
+  <div class="dynamic-video-wrapper wrapper {{ section.settings.custom_class }}">
+    {%- for block in section.blocks -%}
+      {%- if "video" == block.type -%}
+        {%- assign show_videos = false -%}
+        {%- if block.settings.enable_video_by_tag -%}
+            {%- if product.tags contains block.settings.tag_name -%}
+                {%- assign show_videos = true -%}
+            {%- endif -%}
+        {%- else -%}
+            {%- assign show_videos = true -%}
+        {%- endif -%}
+        {%- if show_videos == true -%}
+          {%- assign url = block.settings.url -%}
+          <div class="dynamic-video">
+            {%- assign platform = '' -%}
+            {%- if url contains 'youtube' or url contains 'youtu.be' -%}
+              {%- assign platform = 'youtube' -%}
+              {%- if url contains 'youtu.be' -%}
+                  {%- assign videoID = url | split:'/' | last -%}
+              {%- elsif url contains '&' -%}
+                {%- assign videoID = url | split:'?v=' | last | split:'&' | first -%}
+              {%- elsif url contains 'embed' -%}
+                {%- assign videoID = url | split:'embed/' | last -%}
+              {%- else -%}
+                  {%- assign videoID = url | split:'?v=' | last -%}
+              {%- endif -%}
+            {%- elsif url contains 'vimeo' -%}
+                {%- assign platform = 'vimeo' -%}
+            {%- endif -%}
+            <div class="video" data-video="{{ platform }}">
+              <iframe  class="{{ platform }}{% if slideshow %}hide-player{% endif %}"
+					data-video-url="{{ url }}"
+                    width="560"
+                    height="315"
+                    src="{% if platform == 'youtube' %}
+                            https://www.youtube.com/embed/{{ videoID }}
+                         {% else %}
+                         	  {{ url }}
+                         {% endif %}"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+              <div></div>
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}
+{% schema %}
+    {
+        "name": "Product Videos",
+        "class": "product-videos",
+        "settings": [
+            {
+              "type": "header",
+              "content": "Video Settings"
+            },
+            {
+              "type": "text",
+              "id": "section_title",
+              "label": "Section title",
+			  "default": "BE THE BEST VERSION OF YOU"
+            },
+            {
+              "type": "text",
+              "id": "custom_class",
+              "label": "Custom Class",
+              "info": "Custom class to apply css styles for specific sections"
+            },
+            {
+                "type": "checkbox",
+                "id": "enabled_videos",
+                "label": "Enable Videos on Product Pages",
+                "default": true
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Custom Product Video",
+                "type": "video",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Video Block Title"
+                    },
+                    {
+                      "type": "video_url",
+                      "id": "url",
+                      "label": "Link",
+                      "accept": ["youtube", "vimeo"],
+                      "info": "The Vimeo Link should be added like this: https://player.vimeo.com/video/ID_HERE"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "enable_video_by_tag",
+                        "label": "Enable Video By Tag"
+                    },
+                    {
+                        "type": "text",
+                        "id": "tag_name",
+                        "label": "Product Video Tag",
+                        "info": "Only show video on product pages with these tags."
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "category": "Video",
+              "name": "Video"
+            }
+        ]
+    }
+{% endschema %}
