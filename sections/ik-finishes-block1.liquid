@@ -1,56 +1,56 @@
-{% assign set = section.settings %}
-<div class="ik-finishes-block-wrap">
-  <div class="title-wrap">
-    {% if set.title %}<h2 class="ik-title">{{ set.title }}</h2>{% endif %}
-    {% if set.text %}<div class="ik-content">{{ set.text }}</div>{% endif %}
-  </div>
-  <div class="Index-wrapper">
-    {% for block in section.blocks %}
-        {% assign bset = block.settings %}
-        <div class="img_item">
-          <div class="img_div">
-            <img src="{{ bset.image | img_url: '1000x' }}" alt="{{ bset.image.alt }}">
-          </div>
-          <div class="item-title">{{ bset.item_title }}</div>
-        </div> 
-      {% endfor %}
-  </div>
-</div>
-
-
-{% schema %}
-{
-  "name": "Image block",
-  "class": "ik-finished-block",
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Title"
-    },
-    {
-      "type": "richtext",
-      "id": "text",
-      "label": "Text"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "item",
-      "name": "Item",
-      "settings": [
-        {
-          "type": "text",
-          "id": "item_title",
-          "label": "Title"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        }
-      ]
-    }
-  ]
-}
+{% assign set = section.settings %}
+<div class="ik-finishes-block-wrap">
+  <div class="title-wrap">
+    {% if set.title %}<h2 class="ik-title">{{ set.title }}</h2>{% endif %}
+    {% if set.text %}<div class="ik-content">{{ set.text }}</div>{% endif %}
+  </div>
+  <div class="Index-wrapper">
+    {% for block in section.blocks %}
+        {% assign bset = block.settings %}
+        <div class="img_item">
+          <div class="img_div">
+            <img src="{{ bset.image | img_url: '1000x' }}" alt="{{ bset.image.alt }}">
+          </div>
+          <div class="item-title">{{ bset.item_title }}</div>
+        </div> 
+      {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Image block",
+  "class": "ik-finished-block",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "item_title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
